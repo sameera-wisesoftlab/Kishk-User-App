@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BackHandler, ToastAndroid } from 'react-native';
+import { BackHandler, LogBox, ToastAndroid } from "react-native";
 import _ from 'lodash';
 import {
   getHomeContent,
@@ -72,7 +72,7 @@ const HomeScreen = props => {
 
   useEffect(() => {
     AppState.addEventListener('change', _handleAppStateChange);
-
+    LogBox.ignoreLogs(["VirtualizedLists should never be nested"])
     return () => {
       AppState.removeEventListener('change', _handleAppStateChange);
     };
