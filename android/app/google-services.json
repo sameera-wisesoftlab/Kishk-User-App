@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635944377363",
+    "project_id": "kishk-dc96a",
+    "storage_bucket": "kishk-dc96a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635944377363:android:b197788fa0e4335539b3e6",
+        "android_client_info": {
+          "package_name": "com.kishk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635944377363-s6j5hbtj57rll0dhug75noejdkj2htgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtyYWDMg4W0TOOkPIT-ASlTyX2oW8u8V4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635944377363-s6j5hbtj57rll0dhug75noejdkj2htgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

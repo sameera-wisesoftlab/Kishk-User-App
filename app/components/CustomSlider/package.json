@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      "rn-range-slider@2.0.4",
+      "/home/satheesh/projects/2021/kishk"
+    ]
+  ],
+  "_from": "rn-range-slider@2.0.4",
+  "_id": "rn-range-slider@2.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-DSuD/iJrJcXjDrEmadTX1rWyM4efkDgyjh2lb2vNtJvHbcQ9UVJ6bvabc9F45b5YquM60f4Y8GWzjYq8SLtZlQ==",
+  "_location": "/rn-range-slider",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "rn-range-slider@2.0.4",
+    "name": "rn-range-slider",
+    "escapedName": "rn-range-slider",
+    "rawSpec": "2.0.4",
+    "saveSpec": null,
+    "fetchSpec": "2.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rn-range-slider/-/rn-range-slider-2.0.4.tgz",
+  "_spec": "2.0.4",
+  "_where": "/home/satheesh/projects/2021/kishk",
+  "author": {
+    "name": "Tigran Sahakyan",
+    "email": "mail.of.tigran@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/githuboftigran/rn-range-slider/issues"
+  },
+  "dependencies": {},
+  "description": "A highly optimized pure JS implementation of Range Slider for React Native",
+  "devDependencies": {},
+  "homepage": "https://github.com/githuboftigran/rn-range-slider",
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "android",
+    "ios",
+    "custom",
+    "range",
+    "slider",
+    "seekbar"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "rn-range-slider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githuboftigran/rn-range-slider.git"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "version": "2.0.4"
+}

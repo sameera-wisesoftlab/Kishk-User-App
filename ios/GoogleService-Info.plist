@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>635944377363-uu732g323qc6lnqj8janp8srh883qglq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.635944377363-uu732g323qc6lnqj8janp8srh883qglq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBy7cgTckfgxKzakkXFRhphqn9XD3E0ego</string>
+	<key>GCM_SENDER_ID</key>
+	<string>635944377363</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.ewaantech.kishk</string>
+	<key>PROJECT_ID</key>
+	<string>kishk-dc96a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kishk-dc96a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:635944377363:ios:f89c37db6f50f93939b3e6</string>
+</dict>
+</plist>

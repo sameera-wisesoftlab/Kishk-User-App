@@ -1,0 +1,20 @@
+pipelines:
+  branches:
+    production:
+      - step:
+          #runs-on: self.hosted
+          name: Build
+          image: reactnativecommunity/react-native-android
+          caches:
+            - gradle
+          script:
+            - npm i
+            - cd android && chmod +x gradlew
+            - ./gradlew assembleRelease
+          artifacts:
+            paths:
+              - android/app/build/outputs/apk/release/*.*
+      - step:
+          name: Dropbox
+          script:
+            - 'curl -X POST "https://content.dropboxapi.com/2/files/upload" --header "Authorization: Bearer ${DROPBOX_TOKEN}" --header "Dropbox-API-Arg: {\"path\": \"/Kishk.apk\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}" --header "Content-Type: application/octet-stream" --data-binary @android/app/build/outputs/apk/release/app-release.apk'
